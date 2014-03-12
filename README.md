@@ -3,7 +3,7 @@ SublimeTextUserSettings
 
 My Sublime Text 2/3 User Settings Configuration
 ```json
-{ // You'll want to drop this file into C:\Users\<User_Name>\AppData\Roaming\Sublime Text 3\Packages\User\
+{
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
