@@ -27,8 +27,9 @@ My Sublime Text 2/3 User Settings Configuration
 
 ```
 Packages
-```
+
 Package Control (required) https://sublime.wbond.net/installation
+```
 Emmet
 Git
 GitGutter
