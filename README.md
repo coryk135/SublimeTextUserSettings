@@ -28,12 +28,14 @@ My Sublime Text 2/3 User Settings Configuration
 ```
 Packages
 ```
-Package Control
+Package Control (required) https://sublime.wbond.net/installation
 Emmet
 Git
 GitGutter
-LESS
 JsFormat
-Side Bar
+LESS
+SideBarEnchancements
+SublimeAStyleFormatter
+Theme - Spacegray
 Floobits
 ```
