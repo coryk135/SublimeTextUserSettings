@@ -26,6 +26,31 @@ My Sublime Text 2/3 User Settings Configuration
 }
 
 ```
+
+Key Binding
+```json
+[
+    { "keys": ["j", "k"], "command": "exit_insert_mode", "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["super+c"], "command": "noop", "context":
+        [
+            { "key": "selection_empty", "operator": "equal",
+              "operand": true, "match_all": true }
+        ]
+    },
+    { "keys": ["super+x"], "command": "noop", "context":
+        [
+            { "key": "selection_empty", "operator": "equal",
+              "operand": true, "match_all": true }
+        ]
+    }
+]
+```
+
 Packages
 ============
 Package Control (required) https://sublime.wbond.net/installation
