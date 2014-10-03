@@ -47,6 +47,18 @@ Key Binding
             { "key": "selection_empty", "operator": "equal",
               "operand": true, "match_all": true }
         ]
+    },
+    { "keys": ["ctrl+c"], "command": "noop", "context":
+        [
+            { "key": "selection_empty", "operator": "equal",
+              "operand": true, "match_all": true }
+        ]
+    },
+    { "keys": ["ctrl+x"], "command": "noop", "context":
+        [
+            { "key": "selection_empty", "operator": "equal",
+              "operand": true, "match_all": true }
+        ]
     }
 ]
 ```
