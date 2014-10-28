@@ -22,7 +22,8 @@ My Sublime Text 2/3 User Settings Configuration
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
-	"theme": "Spacegray Eighties.sublime-theme"
+	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
 
 ```
