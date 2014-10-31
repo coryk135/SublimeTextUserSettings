@@ -60,7 +60,11 @@ Key Binding
             { "key": "selection_empty", "operator": "equal",
               "operand": true, "match_all": true }
         ]
-    }
+    },
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+    { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+    { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true } }
 ]
 ```
 
