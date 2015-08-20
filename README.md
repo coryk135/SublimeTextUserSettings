@@ -61,6 +61,9 @@ Key Binding
               "operand": true, "match_all": true }
         ]
     },
+    { "keys": ["super+shift+d"], "command": "run_macro_file",
+        "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}
+    },
     { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
     { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
     { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
